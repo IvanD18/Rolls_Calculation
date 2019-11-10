@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/IvanD18/FuelConsumption.svg?branch=master)](https://travis-ci.org/IvanD18/FuelConsumption) [![codecov](https://codecov.io/gh/IvanD18/FuelConsumption/branch/master/graph/badge.svg)](https://codecov.io/gh/IvanD18/FuelConsumption)
+[![Build Status](https://travis-ci.org/IvanD18/Rolls_Calculation.svg?branch=master)](https://travis-ci.org/IvanD18/Rolls_Calculation) [![codecov](https://codecov.io/gh/IvanD18/Rolls_Calculation/branch/master/graph/badge.svg)](https://codecov.io/gh/IvanD18/Rolls_Calculation)
