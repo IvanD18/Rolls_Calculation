@@ -2,8 +2,9 @@ public class RollsCalculateService {
 
     public int numberOfPanels(int perimeter, int rollWidth) {
         int number = perimeter / rollWidth;
-        if (number * rollWidth != perimeter)
+        if (number * rollWidth != perimeter) {
             number++;
+        }
 
         return number;
     }
@@ -15,8 +16,9 @@ public class RollsCalculateService {
 
     public int rollsNumber(int roomPanels, int rollPanels) {
         int number = roomPanels / rollPanels;
-        if (number * rollPanels != roomPanels)
+        if (number * rollPanels != roomPanels) {
             number++;
+        }
 
         return number;
     }
