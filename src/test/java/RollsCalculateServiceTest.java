@@ -34,24 +34,20 @@ class RollsCalculateServiceTest {
     void rollsNumber1() {
         int perimeter = 2200;
         int rollWidth = 106;
-        int roomHeigh = 275;
+        int roomHeight = 275;
         int rollLength = 1000;
         RollsCalculateService service = new RollsCalculateService();
-        int panelsNumber=service.numberOfPanels(perimeter,rollWidth);
-        int panelsInRoll=service.panelsInRoll(roomHeigh,rollLength);
-        int result = service.rollsNumber(panelsNumber, panelsInRoll);
+        int result = service.rollsNumber(perimeter,rollWidth, roomHeight,rollLength);
         assertEquals(7, result);
     }
     @Test
     void rollsNumber2() {
         int perimeter = 2100;
         int rollWidth = 100;
-        int roomHeigh = 190;
+        int roomHeight = 190;
         int rollLength = 1000;
         RollsCalculateService service = new RollsCalculateService();
-        int panelsNumber=service.numberOfPanels(perimeter,rollWidth);
-        int panelsInRoll=service.panelsInRoll(roomHeigh,rollLength);
-        int result = service.rollsNumber(panelsNumber, panelsInRoll);
+        int result = service.rollsNumber(perimeter,rollWidth, roomHeight,rollLength);
         assertEquals(5, result);
     }
 
